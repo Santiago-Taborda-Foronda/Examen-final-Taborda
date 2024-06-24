@@ -70,8 +70,50 @@ footer{
     .contenedor {
         display: flex;
         flex-direction: column;
-        margin: 100px;
+        margin: 20px;
         padding: 10px;
+    }
+
+    h1 {
+        text-align: center;
+        font: 4em sans-serif;
+        color: rgb(216, 123, 240);
+    }
+    
+    
+    .first {
+       padding: 10px;
+       width: 70%;
+       height: 10cm;
+       background-color: white;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .second {
+       padding: 10px;
+       margin: 40px;
+       width: 70%;
+       height: 11cm;
+       background-color: white;
+     }
+    
+    .titulo-2{
+        padding: 0px, 20px;
+    }
+    p{
+        font-size:small
+    
+    }
+    hr {
+        width: 60%;
+        border-color:  rgb(216, 123, 240);
+    }
+    footer{
+        display: flex;
+        justify-content: center;
     }
 }
 
